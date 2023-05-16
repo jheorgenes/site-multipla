@@ -1,0 +1,216 @@
+/* CABECALHO */
+.cabecalho__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  background-color: #000;
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  gap: 10px;
+}
+
+.cabecalho__item .logo__cabecalho {
+  padding: auto;
+  margin: 3px 0;
+}
+
+.logo__cabecalho {
+  width: 238px;
+}
+
+.container_item_descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--bs-font-sans-serif); /* Font bootstrap utilizando variáveis */
+  font-size: 16px;
+  color: #fff;
+}
+
+.container_item_descricao_peso {
+  color: #ffcc00;
+  font-weight: 700;
+  align-items: center;
+}
+
+.container__cabecalho_group {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.container__cabecalho_group_item {
+  margin: 7px;
+}
+
+.btn__header_item {
+  width: 200px; 
+  max-width: 200px;
+}
+
+/* NAVEGACAO HEADER */
+.navbar__superior__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 100px;
+  font-family: var(--bs-font-sans-serif);
+  height: 65px;
+  gap: 20px;
+}
+
+.navbar__nav {
+  display: flex;
+  width: 100vh;
+  gap: 5px;
+}
+
+.nav__item {
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.navbar__item_tel {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon_telefone_assis {
+  height: 20px;
+}
+
+.texto_telefone_peso {
+  font-weight: 700;
+}
+
+/** MAIN **/
+/* imagem grande*/
+.image__apresentacao {
+  margin-top: 150px;
+  width: 100%;
+}
+
+/* Texto principal */
+.container__main__texto {
+  width: 100vw;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.title__main_texto {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+/* Container de Informações */
+.container__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__informacoes {
+  display: flex;
+  padding: 0 60px;
+  margin: 0 30px;
+}
+
+/* Informações de Contato */
+.container__contato {
+  font-weight: 700;
+  font-family: var(--bs-font-sans-serif);
+  gap: 10px;
+  align-content: space-between;
+}
+
+.item_container__main {
+  height: 100px;
+  flex-grow: 1;
+}
+
+/* ITEM TELEFONE CONTATO */
+    .item__telefones {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      height: 100%;
+    }
+
+    .container_telefones_contato {
+      display: flex;
+    }
+
+    .imagem__telefone {
+      height: 23px;
+      width: 23px;
+    }
+
+/* ITEM EMAIL CONTATO */    
+.item_container__email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+    .icon__email {
+      height: 20px;
+    }
+
+/* ITEM ENDERECO CONTATO */    
+.item_container__endereco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.label__contato {
+  color: #9d9d9c;
+} 
+
+/* Formulário de Dados Pessoais */
+.container__formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario_div {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.item__formulario input, textarea {
+  border: none !important;
+  background-color: #fccd00 !important;
+  color: #000 !important;
+  text-align: start;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.item__formulario input {
+  height: 50px;
+}
+
+.btn__submit_formulario {
+  background: #000;
+  font-weight: 500;
+  height: 50px;
+  border-radius: 10px;
+}
